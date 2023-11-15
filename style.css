@@ -69,16 +69,28 @@ h1, h2, h3, h4, h5, h6, p, a{
 }
 
 .image-grid {
-    padding: 30px;
+    padding-top: 30px;
     border-radius: 10px;
+    margin-left: 2vh;
 }
 
 .image-grid img {
     max-width: 100%;
     height: auto;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     border-radius: 5px;
     background-color: rgb(255, 253, 250);
     padding:0.6vh;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.image-grid img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-grid img:hover {
+    transform: scale(1.05); /* Scale the image on hover */
 }
