@@ -92,5 +92,5 @@ h1, h2, h3, h4, h5, h6, p, a{
 }
 
 .image-grid img:hover {
-    transform: scale(1.05); /* Scale the image on hover */
+    transform: scale(1.12); /* Scale the image on hover */
 }
