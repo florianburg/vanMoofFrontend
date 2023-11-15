@@ -1,0 +1,28 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+.banner{
+    background-image: url(https://imgs.search.brave.com/GltK_3H1YukCqgc5LChoixcudvda9ZjGH4CMQXXktSQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jbG91/ZGZyb250LXVzLWVh/c3QtMi5pbWFnZXMu/YXJjcHVibGlzaGlu/Zy5jb20vcmV1dGVy/cy9QWVRYTEJRWU5O/SkUzQjI0TVFRRVM0/REZVSS5qcGc);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1, h2, h3, h4, h5, h6, p, a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero-video{
+    object-fit:cover;
+    width: 100%;
+    height:max-content;
+}
+
+.hero-body {
+    position: relative;
+}
+
+.form-container{
+    background-color: aliceblue;
+    padding: 2rem;
+    border-radius: 3rem;
+}

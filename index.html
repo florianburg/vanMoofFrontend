@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Van Moof</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar " role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="https://vanmoof">
+                        <img src="https://imgs.search.brave.com/M6NAH_bbBy0GnOmp2UIbzqxfzG7y7tiJcQnPcjMgHQY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zZWVr/bG9nby5jb20vaW1h/Z2VzL1YvdmFubW9v/Zi1sb2dvLTU0NTYz/NkFGOEQtc2Vla2xv/Z28uY29tLnBuZw" width="112" height="28">
+                    </a>
+                </div>
+                <div class="navbar-item is-hoverable navbar-end">
+                    <a href="" class="navbar-item button is-primary">link</a>
+                    <a href="" class="navbar-item button is-link">link</a>
+                    <a href="" class="navbar-item button is-link">link</a>   
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="hero is-halfheight is-primary">
+        <div class="hero-body">
+            <video class="hero-video" autoplay muted loop playsinline>
+                <source src="\img\SG_VAN_MOOF_C2_VEGA_FILM_B_16_9_0.mp4" type="video/mp4">
+                <source src="path/to/your/video.webm" type="video/webm">
+                Your browser does not support the video tag.
+            </video>
+            <div class="container has-text-centered has-text-white">
+                <h1 class="title">
+                    Moof Bikes Repair Registration
+                </h1>
+                <h2 class="subtitle">
+                    Schedule your bike repair with us
+                </h2>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        
+    </section>
+    <section class="section">
+    <div class="container form-container">
+        <h1 class="title">Moof Bikes Repair Registration</h1>
+        <form>
+            <div class="field">
+                <label class="label" for="fullName">Full Name:</label>
+                <div class="control">
+                    <input class="input" type="text" id="fullName" name="fullName" required>
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label" for="email">Email:</label>
+                <div class="control">
+                    <input class="input" type="email" id="email" name="email" required>
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label" for="phoneNumber">Phone Number:</label>
+                <div class="control">
+                    <input class="input" type="tel" id="phoneNumber" name="phoneNumber" required>
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label" for="bikeModel">Bike Model:</label>
+                <div class="control">
+                    <input class="input" type="text" id="bikeModel" name="bikeModel" required>
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label" for="serialNumber">Serial Number:</label>
+                <div class="control">
+                    <input class="input" type="text" id="serialNumber" name="serialNumber" required>
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label" for="issueDescription">Description of the Issue:</label>
+                <div class="control">
+                    <textarea class="textarea" id="issueDescription" name="issueDescription" rows="4" required></textarea>
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">Preferred Service Options:</label>
+                <div class="control">
+                    <label class="checkbox">
+                        <input type="checkbox" id="basicTuneUp" name="serviceOption" value="Basic Tune-up">
+                        Basic Tune-up
+                    </label>
+                    <label class="checkbox">
+                        <input type="checkbox" id="brakeAdjustment" name="serviceOption" value="Brake Adjustment">
+                        Brake Adjustment
+                    </label>
+                    <label class="checkbox">
+                        <input type="checkbox" id="gearShifting" name="serviceOption" value="Gear Shifting Issues">
+                        Gear Shifting Issues
+                    </label>
+                    <label class="checkbox">
+                        <input type="checkbox" id="flatTireRepair" name="serviceOption" value="Flat Tire Repair">
+                        Flat Tire Repair
+                    </label>
+                    <div class="field">
+                        <label class="label" for="otherService">Other (please specify):</label>
+                        <div class="control">
+                            <input class="input" type="text" id="otherService" name="otherService">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label" for="preferredDate">Preferred Date:</label>
+                <div class="control">
+                    <input class="input" type="date" id="preferredDate" name="preferredDate" required>
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label" for="preferredTime">Preferred Time:</label>
+                <div class="control">
+                    <input class="input" type="time" id="preferredTime" name="preferredTime" required>
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label" for="additionalNotes">Additional Notes:</label>
+                <div class="control">
+                    <textarea class="textarea" id="additionalNotes" name="additionalNotes" rows="4"></textarea>
+                </div>
+            </div>
+
+            <div class="field">
+                <div class="control">
+                    <button class="button is-primary" type="submit">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+<div class="hero-foot">
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <strong>Moof Bikes Repair</strong> &copy; 2023. All rights reserved.
+            </p>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
