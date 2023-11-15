@@ -9,22 +9,44 @@
 <body>
     <header>
         <div class="container">
-            <nav class="navbar " role="navigation" aria-label="main navigation">
+            <nav class="navbar" role="navigation" aria-label="main navigation">
                 <div class="navbar-brand">
-                    <a class="navbar-item" href="https://vanmoof">
-                        <img src="https://imgs.search.brave.com/M6NAH_bbBy0GnOmp2UIbzqxfzG7y7tiJcQnPcjMgHQY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zZWVr/bG9nby5jb20vaW1h/Z2VzL1YvdmFubW9v/Zi1sb2dvLTU0NTYz/NkFGOEQtc2Vla2xv/Z28uY29tLnBuZw" width="112" height="28">
+                    <a class="navbar-item" href="#">
+                        <img src="\img\vanmoof-logo.webp" alt="Logo">
+                    </a>
+        
+                    <!-- Burger menu for mobile -->
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                        data-target="navbarBasicExample">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
                     </a>
                 </div>
-                <div class="navbar-item is-hoverable navbar-end">
-                    <a href="" class="navbar-item button is-primary">link</a>
-                    <a href="" class="navbar-item button is-link">link</a>
-                    <a href="" class="navbar-item button is-link">link</a>   
+        
+                <div id="navbarBasicExample" class="navbar-menu">
+                    <div class="navbar-start">
+                        <!-- Navigation links -->
+                        <a class="navbar-item" href="#">
+                            Home
+                        </a>
+        
+                        <a class="navbar-item" href="#">
+                            Products
+                        </a>
+        
+                        <a class="navbar-item" href="#">
+                            Contact
+                        </a>
+                    </div>
+        
+                    <!-- Navbar end: Add additional elements on the right if needed -->
                 </div>
             </nav>
         </div>
     </header>
-    <section class="hero is-halfheight is-primary">
-        <div class="hero-body">
+    <section class="hero is-halfheight">
+        <div class="hero-body center">
             <video class="hero-video" autoplay muted loop playsinline>
                 <source src="\img\SG_VAN_MOOF_C2_VEGA_FILM_B_16_9_0.mp4" type="video/mp4">
                 <source src="path/to/your/video.webm" type="video/webm">
@@ -32,7 +54,7 @@
             </video>
             <div class="container has-text-centered has-text-white">
                 <h1 class="title">
-                    Moof Bikes Repair Registration
+                    vanMoof Bikes Repair
                 </h1>
                 <h2 class="subtitle">
                     Schedule your bike repair with us
@@ -40,17 +62,61 @@
             </div>
         </div>
     </section>
-    <section class="section">
-        
+    <section class="vanmoof-section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-two-thirds">
+                    <div class="vanmoof-info">
+                        <h2 class="title is-3">About VanMoof</h2>
+                        <p>
+                            VanMoof is a Dutch company that revolutionizes urban cycling. Our bikes are designed
+                            for the cities of tomorrow with innovative features, smart technology, and a sleek,
+                            minimalistic design.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod orci sit amet
+                            nibh feugiat, eu eleifend quam congue.
+                        </p>
+                        <a href="#" class="button is-primary is-rounded">Explore Bikes</a>
+                    </div>
+                </div>
+                <div class="column is-one-third">
+                    <div class="image-grid columns is-multiline">
+                        <div class="column is-half">
+                            <img src="\img\VanMoof_A5.webp" alt="VanMoof Bike 1">
+                        </div>
+                        <div class="column is-half">
+                            <img src="\img\VanMoof_S2_fog_white.webp" alt="VanMoof Bike 2">
+                        </div>
+                        <div class="column is-half">
+                            <img src="\img\VanMoof_S3_dark.webp" alt="VanMoof Bike 3">
+                        </div>
+                        <div class="column is-half">
+                            <img src="\img\VanMoof_S5.webp" alt="VanMoof Bike 4">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <section class="section">
     <div class="container form-container">
-        <h1 class="title">Moof Bikes Repair Registration</h1>
+        <h1 class="form-title">Moof Bikes Repair Registration</h1>
         <form>
-            <div class="field">
-                <label class="label" for="fullName">Full Name:</label>
-                <div class="control">
-                    <input class="input" type="text" id="fullName" name="fullName" required>
+            <div class="columns">
+                <div class="field column">
+                    <label class="label" for="fullName">First Name:</label>
+                    <div class="control">
+                        <input class="input" type="text" id="fullName" name="fullName" required>
+                    </div>
+                </div>
+    
+                <div class="field column">
+                    <label class="label" for="fullName">Last Name:</label>
+                    <div class="control">
+                        <input class="input" type="text" id="fullName" name="fullName" required>
+                    </div>
                 </div>
             </div>
 
